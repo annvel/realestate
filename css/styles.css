@@ -1,6 +1,8 @@
 .carousel {
   display: flex;
   overflow-x: auto;
+  scroll-snap-type: x-mandatory;
+  
 }
 
 .carousel > carousel-item {
@@ -8,4 +10,6 @@
   flex-shrink: 0;
   height: 300px;
   width: 100%;
+  scroll-snap-align: start;
+  scroll-behaviour: smooth;
 }
