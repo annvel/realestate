@@ -1,0 +1,11 @@
+.carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel > carousel-item {
+  display: flex;
+  flex-shrink: 0;
+  height: 300px;
+  width: 100%;
+}
